@@ -43,7 +43,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT d.K0, avg(t.c21)
+SELECT d.K0  AS "K0", avg(t.c21) AS "avg(c21)"
 FROM tbl1 d
 JOIN (
     SELECT K1,c21
